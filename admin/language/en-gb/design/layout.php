@@ -15,6 +15,14 @@ $_['text_content_top']    = 'Content Top';
 $_['text_content_bottom'] = 'Content Bottom';
 $_['text_column_left']    = 'Column Left';
 $_['text_column_right']   = 'Column Right';
+$_['text_headerleft']    = 'Header Left';
+$_['text_footer_top']    = 'Footer Top';
+$_['text_footerbottom']    = 'Footer Bottom';
+$_['text_footerleft']    = 'Footer Left';
+$_['text_headertop']    = 'Header Top';
+$_['text_footerright']    = 'Footer Right';
+$_['text_headerbottom']    = 'Header Bottom';
+$_['text_productblock']    = 'Product Tab Block';
 
 // Column
 $_['column_name']         = 'Layout Name';

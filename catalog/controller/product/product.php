@@ -111,7 +111,7 @@ class ControllerProductProduct extends Controller {
 			}
 
 			if (isset($this->request->get['tag'])) {
-				$url .= '&tag=' . urlencode(html_entity_decode(trim($this->request->get['tag']), ENT_QUOTES, 'UTF-8'));
+				$url .= '&tag=' . $this->request->get['tag'];
 			}
 
 			if (isset($this->request->get['description'])) {
@@ -194,7 +194,7 @@ class ControllerProductProduct extends Controller {
 			}
 
 			if (isset($this->request->get['tag'])) {
-				$url .= '&tag=' . urlencode(html_entity_decode(trim($this->request->get['tag']), ENT_QUOTES, 'UTF-8'));
+				$url .= '&tag=' . $this->request->get['tag'];
 			}
 
 			if (isset($this->request->get['description'])) {
@@ -265,6 +265,8 @@ class ControllerProductProduct extends Controller {
 			} else {
 				$data['stock'] = $this->language->get('text_instock');
 			}
+
+			$data['stock_status'] = $product_info['quantity'];
 
 			$this->load->model('tool/image');
 
@@ -401,7 +403,18 @@ class ControllerProductProduct extends Controller {
 				} else {
 					$image = $this->model_tool_image->resize('placeholder.png', $this->config->get('theme_' . $this->config->get('config_theme') . '_image_related_width'), $this->config->get('theme_' . $this->config->get('config_theme') . '_image_related_height'));
 				}
-
+				//added for image swap
+				
+			$images = $this->model_catalog_product->getProductImages($result['product_id']);
+	
+			if(isset($images[0]['image']) && !empty($images)){
+			$images = $images[0]['image']; 
+			}else
+			{
+			$images = $image;
+			}
+						
+		//
 				if ($this->customer->isLogged() || !$this->config->get('config_customer_price')) {
 					$price = $this->currency->format($this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
 				} else {
@@ -431,6 +444,7 @@ class ControllerProductProduct extends Controller {
 				$data['products'][] = array(
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
+					'qty'    	  => $result['quantity'],
 					'name'        => $result['name'],
 					'description' => utf8_substr(trim(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8'))), 0, $this->config->get('theme_' . $this->config->get('config_theme') . '_product_description_length')) . '..',
 					'price'       => $price,
@@ -438,7 +452,11 @@ class ControllerProductProduct extends Controller {
 					'tax'         => $tax,
 					'minimum'     => $result['minimum'] > 0 ? $result['minimum'] : 1,
 					'rating'      => $rating,
-					'href'        => $this->url->link('product/product', 'product_id=' . $result['product_id'])
+					'href'        => $this->url->link('product/product', 'product_id=' . $result['product_id']),
+					'quick'        => $this->url->link('product/quick_view','&product_id=' . $result['product_id']),
+					'percentsaving' 	 => round((( $result['price'] -  $result['special'])/ $result['price'])*100, 0),
+					'thumb_swap'  => $this->model_tool_image->resize($images, $this->config->get('theme_' . $this->config->get('config_theme') . '_image_product_width'), 
+					$this->config->get('theme_' . $this->config->get('config_theme') . '_image_product_height')),
 				);
 			}
 
@@ -450,7 +468,7 @@ class ControllerProductProduct extends Controller {
 				foreach ($tags as $tag) {
 					$data['tags'][] = array(
 						'tag'  => trim($tag),
-						'href' => $this->url->link('product/search', 'tag=' . urlencode(html_entity_decode(trim($tag), ENT_QUOTES, 'UTF-8')))
+						'href' => $this->url->link('product/search', 'tag=' . trim($tag))
 					);
 				}
 			}
@@ -465,6 +483,7 @@ class ControllerProductProduct extends Controller {
 			$data['content_bottom'] = $this->load->controller('common/content_bottom');
 			$data['footer'] = $this->load->controller('common/footer');
 			$data['header'] = $this->load->controller('common/header');
+			$data['productblock'] = $this->load->controller('common/productblock');
 
 			$this->response->setOutput($this->load->view('product/product', $data));
 		} else {
@@ -487,7 +506,7 @@ class ControllerProductProduct extends Controller {
 			}
 
 			if (isset($this->request->get['tag'])) {
-				$url .= '&tag=' . urlencode(html_entity_decode(trim($this->request->get['tag']), ENT_QUOTES, 'UTF-8'));
+				$url .= '&tag=' . $this->request->get['tag'];
 			}
 
 			if (isset($this->request->get['description'])) {

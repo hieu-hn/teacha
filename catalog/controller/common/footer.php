@@ -28,8 +28,14 @@ class ControllerCommonFooter extends Controller {
 		$data['order'] = $this->url->link('account/order', '', true);
 		$data['wishlist'] = $this->url->link('account/wishlist', '', true);
 		$data['newsletter'] = $this->url->link('account/newsletter', '', true);
+		
 
 		$data['powered'] = sprintf($this->language->get('text_powered'), $this->config->get('config_name'), date('Y', time()));
+		
+		$data['footerright'] = $this->load->controller('common/footerright');
+		$data['footerleft'] = $this->load->controller('common/footerleft');
+		$data['footer_top'] = $this->load->controller('common/footer_top');
+		$data['footerbottom'] = $this->load->controller('common/footerbottom');
 
 		// Whos Online
 		if ($this->config->get('config_customer_online')) {
@@ -54,8 +60,10 @@ class ControllerCommonFooter extends Controller {
 			}
 
 			$this->model_tool_online->addOnline($ip, $this->customer->getId(), $url, $referer);
+
 		}
 
+				$data['footerright'] = $this->load->controller('common/footerright');
 		$data['scripts'] = $this->document->getScripts('footer');
 		$data['styles'] = $this->document->getStyles('footer');
 		
