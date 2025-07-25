@@ -1,0 +1,50 @@
+<?php
+//Headings
+$_['heading_title']                 = 'Amazon Pay và đăng nhập bằng Amazon';
+
+//Text
+$_['text_success']                  = 'Mô-đun Amazon Pay và đăng nhập bằng Amazon đã được cập nhật.';
+$_['text_ipn_url']					= 'URL của Cron Job';
+$_['text_ipn_token']				= 'Token bí mật';
+$_['text_us']					   = 'Tiếng Anh Mỹ';
+$_['text_de']					   = 'Tiếng Đức';
+$_['text_uk']                      = 'Tiếng Anh';
+$_['text_fr']                      = 'Tiếng Pháp';
+$_['text_it']                      = 'Tiếng Ý';
+$_['text_es']                      = 'Tiếng Tây Ban Nha';
+$_['text_us_region']			   = 'Hoa Kỳ';
+$_['text_eu_region']               = 'Khu vực đồng Euro';
+$_['text_uk_region']               = 'Vương quốc Anh';
+$_['text_live']                     = 'Trực tiếp';
+$_['text_sandbox']                  = 'Sandbox';
+$_['text_auth']						= 'Ủy quyền';
+$_['text_payment']                  = 'Thanh toán';
+$_['text_account']                  = 'Tài khoản';
+$_['text_guest']					= 'Khách';
+$_['text_no_capture']               = '--- Không tự động thu tiền ---';
+$_['text_all_geo_zones']            = 'Tất cả các vùng địa lý';
+$_['text_button_settings']          = 'Cài đặt nút thanh toán';
+$_['text_colour']                   = 'Màu sắc';
+$_['text_orange']                   = 'Cam';
+$_['text_tan']                      = 'Nâu nhạt';
+$_['text_white']                    = 'Trắng';
+$_['text_light']                    = 'Sáng';
+$_['text_dark']                     = 'Tối';
+$_['text_size']                     = 'Kích thước';
+$_['text_medium']                   = 'Trung bình';
+$_['text_large']                    = 'Lớn';
+$_['text_x_large']                  = 'Cực lớn';
+$_['text_background']               = 'Nền';
+$_['text_edit']						= 'Chỉnh sửa Amazon Pay và đăng nhập bằng Amazon';
+$_['text_amazon_login_pay']         = '<a href="https://pay.amazon.com/help/201828820" target="_blank" title="Đăng ký Amazon Pay"><img src="view/image/payment/amazon_lpa.png" alt="Amazon Pay và đăng nhập bằng Amazon" title="Amazon Pay và đăng nhập bằng Amazon" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_amazon_join']              = '<a href="https://pay.amazon.com/help/201828820" target="_blank" title="Đăng ký Amazon Pay"><u>Đăng ký Amazon Pay</u></a>';
+$_['text_payment_info']				= 'Thông tin thanh toán';
+$_['text_capture_ok']				= 'Thu tiền thành công';
+$_['text_capture_ok_order']			= 'Thu tiền thành công, đã thu toàn bộ số tiền được ủy quyền';
+$_['text_refund_ok']				= 'Yêu cầu hoàn tiền thành công';
+$_['text_refund_ok_order']			= 'Yêu cầu hoàn tiền thành công, đã hoàn toàn bộ số tiền';
+$_['text_cancel_ok']				= 'Hủy thành công, trạng thái đơn hàng đã được cập nhật thành đã hủy';
+$_['text_capture_status']			= 'Đã thu tiền';
+$_['text_cancel_status']			= 'Đã hủy thanh toán';
+$_['text_refund_status']			= 'Đã hoàn tiền';
+$_['text_order_ref']				= 'Mã đơn hàng';

@@ -1,0 +1,50 @@
+<?php
+// Heading
+$_['heading_title']                           = 'Chống gian lận MaxMind';
+
+// Text
+$_['text_extension']                          = 'Tiện ích mở rộng';
+$_['text_success']                            = 'Thành công: Bạn đã sửa đổi chống gian lận MaxMind!';
+$_['text_edit']                               = 'Chỉnh sửa chống gian lận MaxMind';
+$_['text_signup']                             = 'MaxMind là một dịch vụ phát hiện gian lận. Nếu bạn không có khóa giấy phép, bạn có thể <a href="http://www.maxmind.com/?rId=opencart" target="_blank"><u>đăng ký tại đây</u></a>.';
+$_['text_country_match']                      = 'Khớp quốc gia:';
+$_['text_country_code']                       = 'Mã quốc gia:';
+$_['text_high_risk_country']                  = 'Quốc gia có rủi ro cao:';
+$_['text_distance']                           = 'Khoảng cách:';
+$_['text_ip_region']                          = 'Vùng IP:';
+$_['text_ip_city']                            = 'Thành phố IP:';
+$_['text_ip_latitude']                        = 'Vĩ độ IP:';
+$_['text_ip_longitude']                       = 'Kinh độ IP:';
+$_['text_ip_isp']                             = 'ISP:';
+$_['text_ip_org']                             = 'Tổ chức IP:';
+$_['text_ip_asnum']                           = 'ASNUM:';
+$_['text_ip_user_type']                       = 'Loại người dùng IP:';
+$_['text_ip_country_confidence']              = 'Độ tin cậy quốc gia IP:';
+$_['text_ip_region_confidence']               = 'Độ tin cậy vùng IP:';
+$_['text_ip_city_confidence']                 = 'Độ tin cậy thành phố IP:';
+$_['text_ip_postal_confidence']               = 'Độ tin cậy mã bưu chính IP:';
+$_['text_ip_postal_code']                     = 'Mã bưu chính IP:';
+$_['text_ip_accuracy_radius']                 = 'Bán kính chính xác IP:';
+$_['text_ip_net_speed_cell']                  = 'Tốc độ mạng IP Cell';
+$_['text_ip_metro_code']                      = 'Mã vùng đô thị IP:';
+$_['text_ip_area_code']                       = 'Mã vùng IP:';
+$_['text_ip_time_zone']                       = 'Múi giờ IP:';
+$_['text_ip_region_name']                     = 'Tên vùng IP:';
+$_['text_ip_domain']                          = 'Tên miền IP:';
+$_['text_ip_country_name']                    = 'Tên quốc gia IP:';
+$_['text_ip_continent_code']                  = 'Mã lục địa IP:';
+$_['text_ip_corporate_proxy']                 = 'Proxy doanh nghiệp IP:';
+$_['text_anonymous_proxy']                    = 'Proxy ẩn danh:';
+$_['text_proxy_score']                        = 'Điểm proxy:';
+$_['text_is_trans_proxy']                     = 'Là Proxy trong suốt:';
+$_['text_free_mail']                          = 'Email miễn phí:';
+$_['text_carder_email']                       = 'Email gian lận:';
+$_['text_high_risk_username']                 = 'Tên người dùng rủi ro cao:';
+$_['text_high_risk_password']                 = 'Mật khẩu rủi ro cao:';
+$_['text_bin_match']                          = 'Khớp BIN:';
+$_['text_bin_country']                        = 'Quốc gia BIN:';
+$_['text_bin_name_match']                     = 'Khớp tên BIN:';
+$_['text_bin_name']                           = 'Tên BIN:';
+$_['text_bin_phone_match']                    = 'Khớp điện thoại BIN:';
+$_['text_bin_phone']                          = 'Điện thoại BIN:';
+$_['text_customer_phone_in_billing_location'] = 'Số điện thoại khách hàng tại địa chỉ thanh toán:';
