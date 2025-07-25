@@ -1,0 +1,50 @@
+<?php
+// Heading
+$_['heading_title']              = 'Đơn hàng';
+
+// Text
+$_['text_success']               = 'Thành công: Bạn đã sửa đổi đơn hàng!';
+$_['text_list']                  = 'Danh sách đơn hàng';
+$_['text_add']                   = 'Thêm đơn hàng';
+$_['text_edit']                  = 'Sửa đơn hàng';
+$_['text_filter']                = 'Lọc';
+$_['text_order_detail']          = 'Chi tiết đơn hàng';
+$_['text_customer_detail']       = 'Chi tiết khách hàng';
+$_['text_option']                = 'Tùy chọn';
+$_['text_store']                 = 'Cửa hàng';
+$_['text_date_added']            = 'Ngày thêm';
+$_['text_payment_method']        = 'Phương thức thanh toán';
+$_['text_shipping_method']       = 'Phương thức vận chuyển';
+$_['text_customer']              = 'Khách hàng';
+$_['text_customer_group']        = 'Nhóm khách hàng';
+$_['text_email']                 = 'E-Mail';
+$_['text_telephone']             = 'Điện thoại';
+$_['text_fax']                   = 'Fax';
+$_['text_invoice']               = 'Hóa đơn';
+$_['text_reward']                = 'Điểm thưởng';
+$_['text_affiliate']             = 'Đối tác';
+$_['text_order']                 = 'Đơn hàng (#%s)';
+$_['text_payment_address']       = 'Địa chỉ thanh toán';
+$_['text_shipping_address']      = 'Địa chỉ giao hàng';
+$_['text_comment']               = 'Nhận xét của khách hàng';
+$_['text_history']               = 'Lịch sử đơn hàng';
+$_['text_history_add']           = 'Thêm lịch sử đơn hàng';
+$_['text_account_custom_field']  = 'Trường tùy chỉnh tài khoản';
+$_['text_payment_custom_field']  = 'Trường tùy chỉnh địa chỉ thanh toán';
+$_['text_shipping_custom_field'] = 'Trường tùy chỉnh địa chỉ giao hàng';
+$_['text_browser']               = 'Trình duyệt';
+$_['text_ip']                    = 'Địa chỉ IP';
+$_['text_forwarded_ip']          = 'IP chuyển tiếp';
+$_['text_user_agent']            = 'User Agent';
+$_['text_accept_language']       = 'Ngôn ngữ chấp nhận';
+$_['text_order_id']              = 'Mã đơn hàng:';
+$_['text_website']               = 'Website:';
+$_['text_invoice_no']            = 'Số hóa đơn:';
+$_['text_invoice_date']          = 'Ngày hóa đơn:';
+$_['text_sku']                   = 'SKU:';
+$_['text_upc']                   = 'UPC:';
+$_['text_ean']                   = 'EAN:';
+$_['text_jan']                   = 'JAN:';
+$_['text_isbn']                  = 'ISBN:';
+$_['text_mpn']                   = 'MPN:';
+$_['text_missing']               = 'Đơn hàng bị thiếu';
