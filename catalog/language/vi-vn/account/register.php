@@ -28,3 +28,6 @@ $_['error_lastname']       = 'Họ phải có từ 1 đến 32 ký tự!';
 $_['error_email']          = 'Địa chỉ email không hợp lệ!';
 $_['error_telephone']      = 'Số điện thoại phải có từ 3 đến 32 ký tự!';
 $_['error_custom_field']   = 'Yêu cầu %s!';
+$_['error_password']       = 'Mật khẩu phải có từ 4 đến 20 ký tự!';
+$_['error_confirm']        = 'Xác nhận mật khẩu không khớp với mật khẩu!';
+$_['error_agree']          = 'Cảnh báo: Bạn phải đồng ý với %s!';
