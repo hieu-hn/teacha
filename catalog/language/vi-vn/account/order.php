@@ -17,7 +17,16 @@ $_['text_comment']          = 'Ghi chú đơn hàng';
 $_['text_history']          = 'Lịch sử đơn hàng';
 $_['text_success']          = 'Thành công: Bạn đã thêm <a href="%s">%s</a> vào <a href="%s">giỏ hàng</a>!';
 $_['text_empty']            = 'Bạn chưa có đơn hàng nào trước đây!';
-$_['text_error']            = 'Không tìm thấy đơn hàng bạn yêu cầu!';
+$_['text_error']        = 'Không thể tìm thấy đơn đặt hàng bạn yêu cầu!';
+
+// Column
+$_['column_action']      = 'Thao tác';
+$_['column_date_added']  = 'Ngày tạo';
+$_['column_status']      = 'Trạng thái';
+$_['column_comment']     = 'Ghi chú';
+
+// Error
+$_['error_reorder']     = '%s hiện không có sẵn để đặt lại.';
 
 // Column
 $_['column_order_id']       = 'Mã đơn hàng';

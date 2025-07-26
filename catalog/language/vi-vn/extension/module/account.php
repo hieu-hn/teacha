@@ -16,4 +16,6 @@ $_['text_order']       = 'Lịch sử đơn hàng';
 $_['text_download']    = 'Tải xuống';
 $_['text_reward']      = 'Điểm thưởng';
 $_['text_return']      = 'Trả hàng';
+$_['text_transaction'] = 'Giao dịch';
+$_['text_newsletter']  = 'Bản tin';
 $_['text_recurring']   = 'Thanh toán định kỳ';

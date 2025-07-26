@@ -1,5 +1,5 @@
 <?php
-// Heading
+// Heading 
 $_['heading_title']    = 'Mua phiếu quà tặng';
 
 // Text
@@ -28,3 +28,5 @@ $_['error_to_name']    = 'Tên người nhận phải có từ 1 đến 64 ký t
 $_['error_from_name']  = 'Tên của bạn phải có từ 1 đến 64 ký tự!';
 $_['error_email']      = 'Địa chỉ email không hợp lệ!';
 $_['error_theme']      = 'Bạn phải chọn một chủ đề!';
+$_['error_amount']     = 'Số tiền phải từ %s đến %s!';
+$_['error_agree']      = 'Cảnh báo: Bạn phải đồng ý rằng phiếu quà tặng không được hoàn lại!';

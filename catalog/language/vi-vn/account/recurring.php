@@ -32,7 +32,14 @@ $_['text_transaction_suspended']           = 'Đã tạm dừng';
 $_['text_transaction_suspended_failed']    = 'Tạm dừng do thanh toán thất bại';
 $_['text_transaction_outstanding_failed']  = 'Thanh toán chưa thực hiện thất bại';
 $_['text_transaction_expired']             = 'Đã hết hạn';
-$_['text_empty']                           = 'Không tìm thấy thanh toán định kỳ nào!';
+$_['text_empty']                = 'Không tìm thấy hồ sơ thanh toán định kỳ nào!';
+
+// Column
+$_['column_order_recurring_id'] = 'ID thanh toán định kỳ';
+
+// Error
+$_['error_not_cancelled']      = 'Lỗi: %s';
+$_['error_not_found']          = 'Không thể hủy thanh toán định kỳ';
 $_['text_error']                           = 'Không thể tìm thấy đơn hàng định kỳ bạn yêu cầu!';
 $_['text_cancelled']                       = 'Thanh toán định kỳ đã bị hủy';
 

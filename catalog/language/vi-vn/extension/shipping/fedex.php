@@ -1,7 +1,15 @@
 <?php
 // Text
 $_['text_title']                               = 'FedEx';
-$_['text_weight']                              = 'Cân nặng:';
+// Text
+$_['text_weight']                    = 'Trọng lượng:';
+$_['text_international_economy']     = 'International Economy';
+$_['text_international_economy_freight'] = 'International Economy Freight';
+$_['text_international_first']      = 'International First';
+$_['text_international_priority']   = 'International Priority';
+$_['text_international_priority_freight'] = 'International Priority Freight';
+$_['text_priority_overnight']       = 'Priority Overnight';
+$_['text_smart_post']              = 'Smart Post';
 $_['text_eta']                                 = 'Thời gian dự kiến:';
 $_['text_europe_first_international_priority'] = 'Europe First International Priority';
 $_['text_fedex_1_day_freight']                = 'Fedex 1 Day Freight';

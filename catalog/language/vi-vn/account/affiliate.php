@@ -28,3 +28,8 @@ $_['entry_bank_account_number'] = 'Số tài khoản';
 
 // Error
 $_['error_agree']               = 'Cảnh báo: Bạn phải đồng ý với %s!';
+$_['error_cheque']              = 'Yêu cầu tên người nhận séc!';
+$_['error_paypal']              = 'Địa chỉ email PayPal không hợp lệ!';
+$_['error_bank_account_name']   = 'Yêu cầu tên tài khoản!';
+$_['error_bank_account_number'] = 'Yêu cầu số tài khoản!';
+$_['error_custom_field']        = '%s bắt buộc!';

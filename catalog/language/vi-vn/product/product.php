@@ -45,6 +45,8 @@ $_['tab_attribute']            = 'Thông số kỹ thuật';
 $_['tab_review']               = 'Đánh giá (%s)';
 
 // Error
-$_['error_name']               = 'Cảnh báo: Tên đánh giá phải từ 3 đến 25 ký tự!';
+// Error
+$_['error_name']        = 'Tên sản phẩm phải có từ 3 đến 255 ký tự!';
+$_['error_product']     = 'Cảnh báo: Sản phẩm không tồn tại!';
 $_['error_text']               = 'Cảnh báo: Nội dung đánh giá phải từ 25 đến 1000 ký tự!';
 $_['error_rating']             = 'Cảnh báo: Vui lòng chọn mức độ đánh giá!';

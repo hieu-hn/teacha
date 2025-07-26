@@ -13,4 +13,14 @@ $_['text_downpayment_percent']= 'Phần trăm đặt cọc:';
 $_['text_months']             = 'Số tháng:';
 $_['text_downpayment_amount'] = 'Số tiền đặt cọc:';
 $_['text_payment_amounts']    = 'Số tiền thanh toán:';
+$_['text_first_payment_due']  = 'Thanh toán đầu tiên đến hạn:';
+$_['text_last_payment_due']   = 'Thanh toán cuối cùng đến hạn:';
+$_['text_downpayment']        = 'Đặt cọc';
+$_['text_month']              = 'Tháng';
+
+// Column
+$_['column_instalment']       = 'Kỳ trả góp';
+$_['column_amount']           = 'Số tiền';
+$_['column_date']             = 'Ngày';
+$_['column_pp_trans_id']      = 'ID giao dịch PayPal';
 $_['column_status']           = 'Trạng thái';

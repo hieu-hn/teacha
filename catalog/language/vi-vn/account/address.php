@@ -28,3 +28,11 @@ $_['entry_default']      = 'Địa chỉ mặc định';
 // Error
 $_['error_delete']       = 'Cảnh báo: Bạn phải có ít nhất một địa chỉ!';
 $_['error_default']      = 'Cảnh báo: Bạn không thể xóa địa chỉ mặc định!';
+$_['error_firstname']     = 'Tên phải từ 1 đến 32 ký tự!';
+$_['error_lastname']      = 'Họ phải từ 1 đến 32 ký tự!';
+$_['error_address_1']     = 'Địa chỉ phải từ 3 đến 128 ký tự!';
+$_['error_postcode']      = 'Mã bưu điện phải từ 2 đến 10 ký tự!';
+$_['error_city']          = 'Thành phố phải từ 2 đến 128 ký tự!';
+$_['error_country']       = 'Vui lòng chọn quốc gia!';
+$_['error_zone']          = 'Vui lòng chọn tỉnh/thành phố!';
+$_['error_custom_field']  = '%s bắt buộc!';
