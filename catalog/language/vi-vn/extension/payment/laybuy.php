@@ -14,4 +14,16 @@ $_['text_delivery_msg']		= 'Hàng hóa/dịch vụ của bạn sẽ được gia
 $_['text_fee_msg']			= 'Phí quản lý 0.9% được trả cho Lay-Buys.com.';
 $_['text_month']			= 'Tháng';
 $_['text_months']			= 'Tháng';
+$_['text_status_1']			= 'Đang chờ';
+$_['text_status_5']			= 'Hoàn thành';
+$_['text_status_7']			= 'Đã hủy';
+$_['text_status_50']		= 'Yêu cầu sửa đổi';
+$_['text_status_51']		= 'Đã sửa đổi';
+$_['text_comment']			= 'Cập nhật bởi Lay-Buy';
+
+// Entry
+$_['entry_initial']			= 'Thanh toán ban đầu';
+$_['entry_months']			= 'Số tháng';
+
+// Button
 $_['button_confirm']		= 'Xác nhận đơn hàng';

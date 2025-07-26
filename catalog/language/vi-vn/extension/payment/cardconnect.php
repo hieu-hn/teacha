@@ -25,8 +25,20 @@ $_['entry_account_number'] = 'Số tài khoản';
 $_['entry_routing_number'] = 'Số routing';
 
 // Error
-$_['error_card'] = 'Vui lòng kiểm tra thông tin thẻ';
-$_['error_echeck'] = 'Vui lòng kiểm tra thông tin eCheck';
+$_['error_card_number'] = 'Số thẻ không hợp lệ';
+$_['error_card_type'] = 'Loại thẻ không hợp lệ';
+$_['error_card_cvv2'] = 'Mã CVV2 không hợp lệ';
+$_['error_data_missing'] = 'Thiếu dữ liệu';
+$_['error_not_logged_in'] = 'Không đăng nhập';
+$_['error_no_order'] = 'Không tìm thấy đơn hàng';
+$_['error_no_post_data'] = 'Không có dữ liệu _POST';
+$_['error_select_card'] = 'Vui lòng chọn thẻ';
+$_['error_no_card'] = 'Không tìm thấy thẻ';
+$_['error_no_echeck'] = 'eCheck không được hỗ trợ';
+$_['error_account_number'] = 'Số tài khoản không hợp lệ';
+$_['error_routing_number'] = 'Số routing không hợp lệ';
+$_['error_not_enabled'] = 'Module không được kích hoạt';
 
 // Button
 $_['button_confirm'] = 'Xác nhận đơn hàng';
+$_['button_delete'] = 'Xóa thẻ đã chọn';
