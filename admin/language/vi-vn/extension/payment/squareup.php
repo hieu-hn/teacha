@@ -1,0 +1,200 @@
+<?php
+
+// Heading
+$_['heading_title']                                     = 'Square';
+$_['heading_title_transaction']                         = 'Xem giao dịch #%s';
+
+// Help
+$_['help_total']                                        = 'Tổng số tiền thanh toán mà đơn hàng phải đạt được trước khi phương thức thanh toán này được kích hoạt.';
+$_['help_local_cron']                                   = 'Chèn lệnh này vào tab CRON của máy chủ web của bạn. Thiết lập nó để chạy ít nhất một lần mỗi ngày.';
+$_['help_remote_cron']                                  = 'Sử dụng URL này để thiết lập một tác vụ CRON thông qua một dịch vụ CRON dựa trên web. Thiết lập nó để chạy ít nhất một lần mỗi ngày.';
+$_['help_recurring_status']                             = 'Bật để cho phép thanh toán định kỳ.<br />LƯU Ý: Bạn cũng phải thiết lập một tác vụ CRON hàng ngày.';
+$_['help_cron_email']                                   = 'Một bản tóm tắt của tác vụ định kỳ sẽ được gửi đến e-mail này sau khi hoàn thành.';
+$_['help_cron_email_status']                            = 'Bật để nhận bản tóm tắt sau mỗi tác vụ CRON.';
+$_['help_notify_recurring_success']                     = 'Thông báo cho khách hàng về các giao dịch định kỳ thành công.';
+$_['help_notify_recurring_fail']                        = 'Thông báo cho khách hàng về các giao dịch định kỳ không thành công.';
+
+// Tab
+$_['tab_setting']                                       = 'Cài đặt';
+$_['tab_transaction']                                   = 'Giao dịch';
+$_['tab_cron']                                          = 'CRON';
+$_['tab_recurring']                                     = 'Thanh toán định kỳ';
+
+// Text
+$_['text_access_token_expires_label']                   = 'Mã truy cập hết hạn';
+$_['text_access_token_expires_placeholder']             = 'Chưa thiết lập';
+$_['text_acknowledge_cron']                             = 'Tôi xác nhận rằng tôi đã thiết lập một tác vụ CRON tự động bằng một trong các phương pháp trên.';
+$_['text_admin_notifications']                          = 'Thông báo quản trị';
+$_['text_authorize_label']                              = 'Ủy quyền';
+$_['text_canceled_success']                             = 'Thành công: Bạn đã hủy thành công thanh toán này!';
+$_['text_capture']                                      = 'Ghi nhận';
+$_['text_client_id_help']                               = 'Lấy thông tin này từ trang Quản lý ứng dụng trên Square';
+$_['text_client_id_label']                              = 'ID ứng dụng Square';
+$_['text_client_id_placeholder']                        = 'ID ứng dụng Square';
+$_['text_client_secret_help']                           = 'Lấy thông tin này từ trang Quản lý ứng dụng trên Square';
+$_['text_client_secret_label']                          = 'Mã bí mật ứng dụng OAuth';
+$_['text_client_secret_placeholder']                    = 'Mã bí mật ứng dụng OAuth';
+$_['text_confirm_action']                               = 'Bạn có chắc không?';
+$_['text_confirm_cancel']                               = 'Bạn có chắc chắn muốn hủy các khoản thanh toán định kỳ không?';
+$_['text_confirm_capture']                              = 'Bạn sắp ghi nhận số tiền sau: <strong>%s</strong>. Nhấp OK để tiếp tục.';
+$_['text_confirm_refund']                               = 'Vui lòng cung cấp lý do hoàn tiền:';
+$_['text_confirm_void']                                 = 'Bạn sắp hủy số tiền sau: <strong>%s</strong>. Nhấp OK để tiếp tục.';
+$_['text_connected']                                    = 'Đã kết nối';
+$_['text_connected_info']                               = "Kết nối lại nếu bạn muốn chuyển đổi tài khoản hoặc đã thu hồi quyền truy cập của tiện ích này theo cách thủ công từ bảng điều khiển ứng dụng Square. Làm mới mã truy cập theo cách thủ công nếu đã gần 45 ngày kể từ lần bán hàng cuối cùng hoặc kết nối lại.";
+$_['text_connection_section']                           = 'Kết nối Square';
+$_['text_connection_success']                           = 'Kết nối thành công!';
+$_['text_cron_email']                                   = 'Gửi tóm tắt tác vụ đến e-mail này:';
+$_['text_cron_email_status']                            = 'Gửi tóm tắt qua e-mail:';
+$_['text_customer_notifications']                       = 'Thông báo khách hàng';
+$_['text_debug_disabled']                               = 'Đã tắt'; 
+$_['text_debug_enabled']                                = 'Đã bật'; 
+$_['text_debug_help']                                   = 'Các yêu cầu và phản hồi API sẽ được ghi lại trong nhật ký lỗi OpenCart. Chỉ sử dụng cho mục đích gỡ lỗi và phát triển.';
+$_['text_debug_label']                                  = 'Ghi nhật ký gỡ lỗi';
+$_['text_delay_capture_help']                           = 'Chỉ ủy quyền giao dịch hoặc thực hiện tính phí tự động';
+$_['text_delay_capture_label']                          = 'Loại giao dịch';
+$_['text_disabled_connect_help_text']                   = 'ID khách hàng và mã bí mật là các trường bắt buộc.';
+$_['text_edit_heading']                                 = 'Chỉnh sửa Square';
+$_['text_enable_sandbox_help']                          = 'Bật chế độ sandbox để thử nghiệm giao dịch';
+$_['text_enable_sandbox_label']                         = 'Bật chế độ sandbox';
+$_['text_executables']                                  = 'Phương thức thực thi CRON';
+$_['text_extension']                                    = 'Tiện ích';
+$_['text_extension_status']                             = 'Trạng thái tiện ích';
+$_['text_extension_status_disabled']                    = 'Đã tắt'; 
+$_['text_extension_status_enabled']                     = 'Đã bật'; 
+$_['text_extension_status_help']                        = 'Bật hoặc tắt phương thức thanh toán'; 
+$_['text_insert_amount']                                = 'Vui lòng nhập số tiền hoàn lại. Tối đa: %s trong %s:';
+$_['text_loading']                                      = 'Đang tải dữ liệu... Vui lòng đợi...';
+$_['text_loading_short']                                = 'Vui lòng đợi...';
+$_['text_local_cron']                                   = 'Phương pháp #1 - Tác vụ CRON:';
+$_['text_location_error']                               = 'Đã xảy ra lỗi khi cố gắng đồng bộ hóa vị trí và mã thông báo: %s';
+$_['text_location_help']                                = 'Chọn vị trí Square đã định cấu hình nào sẽ được sử dụng cho các giao dịch. Phải có khả năng xử lý thẻ được bật.';
+$_['text_location_label']                               = 'Vị trí';
+$_['text_manage']                                       = 'Giao dịch thẻ tín dụng (Square)';
+$_['text_manage_tooltip']                               = 'Xem chi tiết / Ghi nhận / Hủy / Hoàn tiền';
+$_['text_merchant_info_section_heading']                = 'Thông tin người bán';
+$_['text_merchant_name_label']                          = 'Tên người bán';
+$_['text_merchant_name_placeholder']                    = 'Chưa thiết lập';
+$_['text_no_appropriate_locations_warning']             = 'Không có vị trí nào có khả năng xử lý thẻ trực tuyến được thiết lập trong tài khoản Square của bạn.';
+$_['text_no_location_selected_warning']                 = 'Chưa có vị trí nào được chọn.';
+$_['text_no_locations_label']                           = 'Không có vị trí hợp lệ';
+$_['text_no_transactions']                              = 'Chưa có giao dịch nào được ghi lại.';
+$_['text_not_connected']                                = 'Chưa kết nối';
+$_['text_not_connected_info']                           = 'Bằng cách nhấp vào nút này, bạn sẽ kết nối mô-đun này với tài khoản Square của mình và kích hoạt dịch vụ.';
+$_['text_notification_ssl']                             = 'Đảm bảo bạn đã bật SSL trên trang thanh toán của mình. Nếu không, tiện ích sẽ không hoạt động.';
+$_['text_notify_recurring_fail']                        = 'Giao dịch định kỳ không thành công:';
+$_['text_notify_recurring_success']                     = 'Giao dịch định kỳ thành công:';
+$_['text_ok']                                           = 'OK';
+$_['text_order_history_cancel']                         = 'Một quản trị viên đã hủy các khoản thanh toán định kỳ của bạn. Thẻ của bạn sẽ không còn bị tính phí.';
+$_['text_payment_method_name_help']                     = 'Tên phương thức thanh toán khi thanh toán';
+$_['text_payment_method_name_label']                    = 'Tên phương thức thanh toán';
+$_['text_payment_method_name_placeholder']              = 'Thẻ tín dụng / Thẻ ghi nợ';
+$_['text_recurring_info']                               = 'Vui lòng đảm bảo thiết lập một tác vụ CRON hàng ngày bằng một trong các phương pháp dưới đây. Công việc CRON giúp bạn với:<br /><br />&bull; Tự động làm mới mã truy cập API của bạn<br />&bull; Xử lý các giao dịch định kỳ';
+$_['text_recurring_status']                             = 'Trạng thái thanh toán định kỳ:';
+$_['text_redirect_uri_help']                            = 'Dán liên kết này vào trường URI chuyển hướng trong Quản lý ứng dụng/oAuth';
+$_['text_redirect_uri_label']                           = 'URL chuyển hướng Square OAuth';
+$_['text_refresh_access_token_success']                 = 'Làm mới kết nối với tài khoản Square của bạn thành công.'; 
+$_['text_refresh_token']                                = 'Tạo lại mã thông báo';
+$_['text_refund']                                       = 'Hoàn tiền';
+$_['text_refund_details']                               = 'Chi tiết hoàn tiền';
+$_['text_refunded_amount']                              = 'Đã hoàn tiền: %s. Trạng thái hoàn tiền: %s. Lý do hoàn tiền: %s';
+$_['text_refunds']                                      = 'Hoàn tiền (%s)';
+$_['text_remote_cron']                                  = 'Phương pháp #2 - CRON từ xa:';
+$_['text_sale_label']                                   = 'Bán hàng';
+$_['text_sandbox_access_token_help']                    = 'Lấy thông tin này từ trang Quản lý ứng dụng trên Square';
+$_['text_sandbox_access_token_label']                   = 'Mã truy cập Sandbox';
+$_['text_sandbox_access_token_placeholder']             = 'Mã truy cập Sandbox';
+$_['text_sandbox_client_id_help']                       = 'Lấy thông tin này từ trang Quản lý ứng dụng trên Square';
+$_['text_sandbox_client_id_label']                      = 'ID ứng dụng Sandbox';
+$_['text_sandbox_client_id_placeholder']                = 'ID ứng dụng Sandbox';
+$_['text_sandbox_disabled_label']                       = 'Đã tắt'; 
+$_['text_sandbox_enabled']                              = 'Chế độ Sandbox đã được bật! Các giao dịch sẽ có vẻ như được thực hiện, nhưng sẽ không có khoản phí nào được thực hiện.';
+$_['text_sandbox_enabled_label']                        = 'Đã bật'; 
+$_['text_sandbox_section_heading']                      = 'Cài đặt Square Sandbox';
+$_['text_select_location']                              = 'Chọn vị trí';
+$_['text_settings_section_heading']                     = 'Cài đặt Square';
+$_['text_squareup']                                     = '<a target="_BLANK" href="https://squareup.com"><img src="view/image/payment/squareup.png" alt="Square" title="Square" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_success']                                      = 'Thành công: Bạn đã sửa đổi mô-đun thanh toán Square!';
+$_['text_success_capture']                              = 'Giao dịch được ghi nhận thành công!';
+$_['text_success_refund']                               = 'Giao dịch được hoàn tiền thành công!';
+$_['text_success_void']                                 = 'Giao dịch được hủy thành công!';
+$_['text_token_expired']                                = 'Mã truy cập Square của bạn đã hết hạn! <a href="%s">Nhấp vào đây</a> để gia hạn ngay bây giờ.';
+$_['text_token_expiry_warning']                         = 'Mã truy cập Square của bạn sẽ hết hạn vào %s. <a href="%s">Nhấp vào đây</a> để gia hạn ngay bây giờ.';
+$_['text_token_revoked']                                = 'Mã truy cập Square của bạn đã hết hạn hoặc đã bị thu hồi! <a href="%s">Nhấp vào đây</a> để ủy quyền lại cho tiện ích Square.';
+$_['text_transaction_statuses']                         = 'Trạng thái giao dịch';
+$_['text_view']                                         = 'Xem thêm';
+$_['text_void']                                         = 'Hủy';
+$_['text_na']                                           = 'Không có';
+$_['text_no_reason_provided']                           = 'Lý do không được cung cấp.';
+
+// Statuses
+$_['squareup_status_comment_authorized']                = 'Giao dịch thẻ đã được ủy quyền nhưng chưa được ghi nhận.';
+$_['squareup_status_comment_captured']                  = 'Giao dịch thẻ đã được ủy quyền và sau đó được ghi nhận (tức là hoàn thành).';
+$_['squareup_status_comment_voided']                    = 'Giao dịch thẻ đã được ủy quyền và sau đó bị hủy (tức là bị hủy bỏ).';
+$_['squareup_status_comment_failed']                    = 'Giao dịch thẻ không thành công.';
+
+// Entry
+$_['entry_total']                                       = 'Tổng cộng';
+$_['entry_geo_zone']                                    = 'Khu vực địa lý';
+$_['entry_sort_order']                                  = 'Thứ tự sắp xếp';
+$_['entry_merchant']                                    = 'ID người bán';
+$_['entry_transaction_id']                              = 'ID giao dịch';
+$_['entry_order_id']                                    = 'ID đơn hàng';
+$_['entry_partner_solution_id']                         = 'ID giải pháp đối tác';
+$_['entry_type']                                        = 'Loại giao dịch';
+$_['entry_currency']                                    = 'Tiền tệ';
+$_['entry_amount']                                      = 'Số tiền';
+$_['entry_browser']                                     = 'User Agent của khách hàng';
+$_['entry_ip']                                          = 'IP của khách hàng';
+$_['entry_date_created']                                = 'Ngày tạo';
+$_['entry_billing_address_company']                     = 'Công ty thanh toán';
+$_['entry_billing_address_street']                      = 'Đường thanh toán';
+$_['entry_billing_address_city']                        = 'Thành phố thanh toán';
+$_['entry_billing_address_postcode']                    = 'Mã ZIP thanh toán';
+$_['entry_billing_address_province']                    = 'Tỉnh/Tiểu bang thanh toán';
+$_['entry_billing_address_country']                     = 'Quốc gia thanh toán';
+$_['entry_status_authorized']                           = 'Đã ủy quyền';
+$_['entry_status_captured']                             = 'Đã ghi nhận';
+$_['entry_status_voided']                               = 'Đã hủy';
+$_['entry_status_failed']                               = 'Thất bại';
+$_['entry_setup_confirmation']                          = 'Xác nhận thiết lập:';
+
+// Error
+$_['error_permission']                                  = '<strong>Cảnh báo:</strong> Bạn không có quyền sửa đổi thanh toán Square!';
+$_['error_permission_recurring']                        = '<strong>Cảnh báo:</strong> Bạn không có quyền sửa đổi thanh toán định kỳ!';
+$_['error_transaction_missing']                         = 'Không tìm thấy giao dịch!';
+$_['error_no_ssl']                                      = '<strong>Cảnh báo:</strong> SSL không được bật trên bảng quản trị của bạn. Vui lòng bật nó để hoàn tất cấu hình của bạn.';
+$_['error_user_rejected_connect_attempt']               = 'Nỗ lực kết nối đã bị người dùng hủy bỏ.';
+$_['error_possible_xss']                                = 'Chúng tôi đã phát hiện một cuộc tấn công chéo trang có thể xảy ra và đã chấm dứt nỗ lực kết nối của bạn. Vui lòng xác minh ID ứng dụng và mã bí mật của bạn và thử lại bằng các nút trong bảng quản trị.';
+$_['error_invalid_email']                               = 'Địa chỉ e-mail được cung cấp không hợp lệ!';
+$_['error_cron_acknowledge']                            = 'Vui lòng xác nhận bạn đã thiết lập một công việc CRON.';
+$_['error_client_id']                                   = 'ID khách hàng của ứng dụng là một trường bắt buộc';
+$_['error_client_secret']                               = 'Mã bí mật của ứng dụng khách hàng là một trường bắt buộc';
+$_['error_sandbox_client_id']                           = 'ID khách hàng sandbox là một trường bắt buộc khi chế độ sandbox được bật';
+$_['error_sandbox_token']                               = 'Mã thông báo sandbox là một trường bắt buộc khi chế độ sandbox được bật';
+$_['error_no_location_selected']                        = 'Vị trí là một trường bắt buộc';
+$_['error_refresh_access_token']                        = "Đã xảy ra lỗi khi cố gắng làm mới kết nối của tiện ích với tài khoản Square của bạn. Vui lòng xác minh thông tin đăng nhập ứng dụng của bạn và thử lại.";
+$_['error_form']                                        = 'Vui lòng kiểm tra lỗi trong biểu mẫu và thử lưu lại.';
+$_['error_token']                                       = 'Đã xảy ra lỗi khi làm mới mã thông báo: %s';
+$_['error_no_refund']                                   = 'Hoàn tiền không thành công.';
+
+// Column
+$_['column_transaction_id']                             = 'ID giao dịch';
+$_['column_order_id']                                   = 'ID đơn hàng';
+$_['column_customer']                                   = 'Khách hàng';
+$_['column_status']                                     = 'Trạng thái';
+$_['column_type']                                       = 'Loại';
+$_['column_amount']                                     = 'Số tiền';
+$_['column_ip']                                         = 'IP';
+$_['column_date_created']                               = 'Ngày tạo';
+$_['column_action']                                     = 'Hành động';
+$_['column_refunds']                                    = 'Hoàn tiền';
+$_['column_reason']                                     = 'Lý do';
+$_['column_fee']                                        = 'Phí xử lý';
+
+// Button
+$_['button_void']                                       = 'Hủy';
+$_['button_refund']                                     = 'Hoàn tiền';
+$_['button_capture']                                    = 'Ghi nhận';
+$_['button_connect']                                    = 'Kết nối';
+$_['button_reconnect']                                  = 'Kết nối lại';
+$_['button_refresh']                                    = 'Làm mới mã thông báo';
