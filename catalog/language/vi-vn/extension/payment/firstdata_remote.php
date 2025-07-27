@@ -23,6 +23,25 @@ $_['text_3d_s7']         = 'Sai mật khẩu';
 $_['text_3d_s8']         = 'Xác thực không khả dụng';
 $_['text_3d_s9']         = 'Phản hồi không hợp lệ từ ACS';
 $_['text_3d_s10']        = 'Lỗi nghiêm trọng RealMPI';
+$_['text_card_accepted']   = 'Thẻ được chấp nhận: ';
+$_['text_card_type_m']     = 'Mastercard';
+$_['text_card_type_v']     = 'Visa (Credit/Debit/Electron/Delta)';
+$_['text_card_type_c']     = 'Diners';
+$_['text_card_type_a']     = 'American Express';
+$_['text_card_type_ma']    = 'Maestro';
+$_['text_card_new']        = 'Thẻ mới';
+
+// Entry
+$_['entry_cc_number']      = 'Số thẻ';
+$_['entry_cc_name']        = 'Tên chủ thẻ';
+$_['entry_cc_expire_date'] = 'Ngày hết hạn';
+$_['entry_cc_cvv2']        = 'Mã bảo mật (CVV2)';
+
+// Help
+$_['help_start_date']      = '(nếu có)';
+$_['help_issue']           = '(chỉ dành cho thẻ Maestro và Solo)';
+$_['text_card_type_ma']    = 'Maestro';
+$_['text_card_new']        = 'Thẻ mới';
 
 // Entry
 $_['entry_cc_number']      = 'Số thẻ';

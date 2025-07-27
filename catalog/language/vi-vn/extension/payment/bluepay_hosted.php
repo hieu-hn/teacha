@@ -7,6 +7,7 @@ $_['text_title'] = 'Thẻ tín dụng / Thẻ ghi nợ (BluePay)';
 $_['text_credit_card'] = 'Chi tiết thẻ';
 $_['text_description'] = 'Sản phẩm trên %s Đơn hàng số: %s';
 $_['text_card_type'] = 'Loại thẻ: ';
+$_['text_transaction_error'] = 'Đã xảy ra lỗi khi xử lý giao dịch của bạn - ';
 $_['text_card_name'] = 'Tên thẻ: ';
 $_['text_card_digits'] = 'Số cuối: ';
 $_['text_card_expiry'] = 'Hết hạn: ';

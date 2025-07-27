@@ -24,21 +24,26 @@ $_['entry_card_choice'] = 'Chọn thẻ của bạn';
 $_['entry_account_number'] = 'Số tài khoản';
 $_['entry_routing_number'] = 'Số routing';
 
-// Error
-$_['error_card_number'] = 'Số thẻ không hợp lệ';
-$_['error_card_type'] = 'Loại thẻ không hợp lệ';
-$_['error_card_cvv2'] = 'Mã CVV2 không hợp lệ';
-$_['error_data_missing'] = 'Thiếu dữ liệu';
-$_['error_not_logged_in'] = 'Không đăng nhập';
-$_['error_no_order'] = 'Không tìm thấy đơn hàng';
-$_['error_no_post_data'] = 'Không có dữ liệu _POST';
-$_['error_select_card'] = 'Vui lòng chọn thẻ';
-$_['error_no_card'] = 'Không tìm thấy thẻ';
-$_['error_no_echeck'] = 'eCheck không được hỗ trợ';
-$_['error_account_number'] = 'Số tài khoản không hợp lệ';
-$_['error_routing_number'] = 'Số routing không hợp lệ';
-$_['error_not_enabled'] = 'Module không được kích hoạt';
-
 // Button
 $_['button_confirm'] = 'Xác nhận đơn hàng';
 $_['button_delete'] = 'Xóa thẻ đã chọn';
+
+// Error
+$_['error_card_number'] = 'Số thẻ phải từ 1 đến 19 ký tự!';
+$_['error_card_type'] = 'Loại thẻ không hợp lệ!';
+$_['error_card_cvv2'] = 'Mã CVV2 phải từ 1 đến 4 ký tự!';
+$_['error_data_missing'] = 'Thiếu dữ liệu!';
+$_['error_not_logged_in'] = 'Chưa đăng nhập!';
+$_['error_no_order'] = 'Không tìm thấy đơn hàng!';
+$_['error_no_post_data'] = 'Không có dữ liệu POST';
+$_['error_select_card'] = 'Vui lòng chọn thẻ!';
+$_['error_no_card'] = 'Không tìm thấy thẻ!';
+$_['error_no_echeck'] = 'eCheck không được hỗ trợ!';
+$_['error_account_number'] = 'Số tài khoản phải từ 1 đến 19 ký tự!';
+$_['error_routing_number'] = 'Số routing phải từ 1 đến 9 ký tự!';
+$_['error_not_enabled'] = 'Module chưa được kích hoạt';
+$_['error_invalid_currency'] = 'Vui lòng sử dụng loại tiền tệ hợp lệ!';
+$_['error_finalizing_payment'] = 'Lỗi hoàn tất thanh toán!';
+$_['error_unknown_order_id'] = 'Không thể tìm thấy thanh toán với đơn hàng này!';
+$_['error_invalid_hash'] = 'Hash không hợp lệ!';
+$_['error_payment_declined'] = 'Thanh toán đã bị từ chối bởi ngân hàng phát hành!';

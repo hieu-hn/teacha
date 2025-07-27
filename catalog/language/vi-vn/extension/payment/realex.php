@@ -1,9 +1,22 @@
 <?php
+// Heading
+$_['text_title'] = 'Thẻ tín dụng / Thẻ ghi nợ (Realex)';
+
+// Button
+$_['button_confirm'] = 'Xác nhận';
+
+// Entry
+$_['entry_cc_type'] = 'Loại thẻ';
+
 // Text
-$_['text_title'] = 'Thẻ tín dụng hoặc thẻ ghi nợ (Xử lý an toàn bởi Realex)';
-$_['text_credit_card'] = 'Chi tiết thẻ';
-$_['text_wait'] = 'Vui lòng đợi!';
-$_['text_result'] = 'Kết quả';
+$_['text_success'] = 'Thanh toán của bạn đã được xác thực.';
+$_['text_decline'] = 'Thanh toán của bạn không thành công';
+$_['text_bank_error'] = 'Đã xảy ra lỗi khi xử lý yêu cầu của bạn với ngân hàng.';
+$_['text_generic_error'] = 'Đã xảy ra lỗi khi xử lý yêu cầu của bạn.';
+$_['text_hash_failed'] = 'Kiểm tra hash thất bại. Không thử thanh toán lại vì trạng thái thanh toán không xác định. Vui lòng liên hệ người bán.';
+$_['text_link'] = 'Vui lòng nhấp <a href="%s">vào đây</a> để tiếp tục';
+$_['text_select_card'] = 'Vui lòng chọn loại thẻ của bạn';
+$_['text_result'] = 'Kết quả xác thực';
 $_['text_message'] = 'Thông báo';
 $_['text_cvn_result'] = 'Kết quả CVN';
 $_['text_avs_postcode'] = 'Mã bưu điện AVS';
@@ -14,7 +27,7 @@ $_['text_order_ref'] = 'Tham chiếu đơn hàng';
 $_['text_timestamp'] = 'Thời gian';
 $_['text_card_type'] = 'Loại thẻ';
 $_['text_card_digits'] = 'Số thẻ';
-$_['text_card_exp'] = 'Thẻ hết hạn';
+$_['text_card_exp'] = 'Ngày hết hạn';
 $_['text_card_name'] = 'Tên thẻ';
 $_['text_3d_s1'] = 'Chủ thẻ không đăng ký, chuyển trách nhiệm';
 $_['text_3d_s2'] = 'Không thể xác minh đăng ký, không chuyển trách nhiệm';
