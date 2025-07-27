@@ -297,7 +297,7 @@ a {
 }
 
 a:hover, a:focus {
-	color: #f0a330;
+	color: #63AB36;
 	text-decoration: none;
 }
 a:focus {
@@ -2292,8 +2292,8 @@ border:none;
 
 .btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open .dropdown-toggle.btn-info {
     color: #fff;
-    background-color: #f0a330;
-    border:1px solid #f0a330;
+    background-color: #63AB36;
+    border:1px solid #63AB36;
 }
 
 .btn-info:active,.btn-info.active,.open .dropdown-toggle.btn-info {
@@ -5829,7 +5829,7 @@ button.close {
     color: #fff;
     text-align: center;
     text-decoration: none;
-    background-color: #f0a330 ;
+    background-color: #63AB36 ;
 }
 
 .tooltip-arrow {
@@ -5845,21 +5845,21 @@ button.close {
     left: 50%;
     margin-left: -5px;
     border-width: 5px 5px 0;
-    border-top-color:#f0a330 ;
+    border-top-color:#63AB36 ;
 }
 
 .tooltip.top-left .tooltip-arrow {
     bottom: 0;
     left: 5px;
     border-width: 5px 5px 0;
-    border-top-color: #f0a330 ;
+    border-top-color: #63AB36 ;
 }
 
 .tooltip.top-right .tooltip-arrow {
     bottom: 0;
     right: 5px;
     border-width: 5px 5px 0;
-    border-top-color: #f0a330;
+    border-top-color: #63AB36;
 }
 
 .tooltip.right .tooltip-arrow {
@@ -5867,7 +5867,7 @@ button.close {
     left: 0;
     margin-top: -5px;
     border-width: 5px 5px 5px 0;
-    border-right-color: #f0a330;
+    border-right-color: #63AB36;
 }
 
 .tooltip.left .tooltip-arrow {
@@ -5875,7 +5875,7 @@ button.close {
     right: 0;
     margin-top: -5px;
     border-width: 5px 0 5px 5px;
-    border-left-color: #f0a330;
+    border-left-color: #63AB36;
 }
 
 .tooltip.bottom .tooltip-arrow {
@@ -5883,21 +5883,21 @@ button.close {
     left: 50%;
     margin-left: -5px;
     border-width: 0 5px 5px;
-    border-bottom-color: #f0a330;
+    border-bottom-color: #63AB36;
 }
 
 .tooltip.bottom-left .tooltip-arrow {
     top: 0;
     left: 5px;
     border-width: 0 5px 5px;
-    border-bottom-color: #f0a330;
+    border-bottom-color: #63AB36;
 }
 
 .tooltip.bottom-right .tooltip-arrow {
     top: 0;
     right: 5px;
     border-width: 0 5px 5px;
-    border-bottom-color: #f0a330;
+    border-bottom-color: #63AB36;
 }
 
 .popover {
