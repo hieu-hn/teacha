@@ -1,5 +1,6 @@
 <?php
 // Text
+/*
 $_['text_title']  = 'Newsletter';
 $_['text_description'] = 'Đăng ký nhận tin';
 $_['entry_email'] = 'Email';
@@ -7,6 +8,7 @@ $_['button_subscribe'] = 'Đăng ký';
 $_['text_success'] = 'Đăng ký thành công!';
 $_['error_exists'] = 'Email đã được đăng ký!';
 $_['error_email']  = 'Email không hợp lệ!';
+*/
 
 // Heading
 $_['heading_title'] = 'Newsletter';

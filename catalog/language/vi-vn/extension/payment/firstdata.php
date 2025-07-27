@@ -1,6 +1,8 @@
 <?php
 // Text
 $_['text_title'] = 'First Data';
+// Button
+$_['button_confirm']			= 'Tiếp tục';
 $_['text_new_card'] = 'Thêm thẻ mới';
 $_['text_store_card'] = 'Ghi nhớ thông tin thẻ';
 $_['text_address_response'] = 'Xác minh địa chỉ: ';

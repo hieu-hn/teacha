@@ -97,4 +97,19 @@ $_['help_postcode']                = 'Nhập mã bưu điện xuất phát của
 $_['help_test']                    = 'Sử dụng module này ở chế độ thử nghiệm (CÓ) hoặc chế độ sản xuất (KHÔNG)?';
 $_['help_quote_type']              = 'Báo giá cho giao hàng khu dân cư hoặc thương mại.';
 $_['help_service']                 = 'Chọn dịch vụ UPS sẽ được cung cấp.';
-$_['help_insurance']               = 'Bật bảo hiểm với tổng sản phẩm làm giá trị';
+$_['help_insurance'] = 'Bật bảo hiểm với tổng giá trị sản phẩm làm giá trị bảo hiểm';
+$_['help_display_weight'] = 'Bạn có muốn hiển thị trọng lượng vận chuyển không? (ví dụ: Trọng lượng giao hàng: 2.7674 kg)';
+$_['help_weight_class'] = 'Thiết lập đơn vị trọng lượng là kilogram hoặc pound.';
+$_['help_length_class'] = 'Thiết lập đơn vị chiều dài là centimet hoặc inch.';
+$_['help_dimension'] = 'Giả định đây là kích thước trung bình của hộp đóng gói. Hiện tại chưa hỗ trợ kích thước riêng của từng sản phẩm, vì vậy bạn phải nhập kích thước trung bình, ví dụ: 5x5x5.';
+$_['help_debug'] = 'Lưu dữ liệu gửi/nhận vào nhật ký hệ thống';
+
+// Lỗi
+$_['error_permission'] = 'Cảnh báo: Bạn không có quyền chỉnh sửa phương thức vận chuyển UPS (Mỹ)!';
+$_['error_key'] = 'Yêu cầu nhập Access Key!';
+$_['error_username'] = 'Yêu cầu nhập tên người dùng!';
+$_['error_password'] = 'Yêu cầu nhập mật khẩu!';
+$_['error_city'] = 'Yêu cầu nhập thành phố nơi gửi!';
+$_['error_state'] = 'Yêu cầu nhập bang/tỉnh nơi gửi!';
+$_['error_country'] = 'Yêu cầu nhập quốc gia nơi gửi!';
+$_['error_dimension'] = 'Yêu cầu nhập kích thước trung bình!';

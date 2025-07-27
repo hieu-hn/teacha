@@ -50,3 +50,41 @@ $_['error_declined'] = 'Thẻ bị từ chối. Vui lòng liên hệ với ngân
 $_['error_address_mismatch'] = 'Địa chỉ thanh toán không khớp với địa chỉ thẻ của bạn.';
 $_['error_expired'] = 'Thẻ đã hết hạn.';
 $_['error_generic_decline'] = 'Thanh toán không thành công. Vui lòng thử lại hoặc sử dụng một phương thức thanh toán khác.';
+
+$_['text_cron_summary_token_heading']   = 'Làm mới mã truy cập:';
+$_['text_cron_summary_token_updated']   = 'Mã truy cập đã được cập nhật thành công!';
+$_['text_cron_summary_error_heading']   = 'Lỗi giao dịch:';
+$_['text_cron_summary_fail_heading']    = 'Giao dịch thất bại (Hồ sơ bị tạm ngưng):';
+$_['text_cron_summary_success_heading'] = 'Giao dịch thành công:';
+$_['text_cron_fail_charge']             = 'Không thể tính phí hồ sơ <strong>#%s</strong> với số tiền <strong>%s</strong>';
+$_['text_cron_success_charge']          = 'Đã tính phí hồ sơ <strong>#%s</strong> với số tiền <strong>%s</strong>';
+$_['text_card_placeholder']             = 'XXXX XXXX XXXX XXXX';
+$_['text_cvv']                          = 'CVV';
+$_['text_expiry']                       = 'MM/YY';
+$_['text_default_squareup_name']        = 'Thẻ Tín dụng / Ghi nợ';
+$_['text_token_issue_customer_error']   = 'Chúng tôi đang gặp sự cố kỹ thuật với hệ thống thanh toán. Vui lòng thử lại sau.';
+$_['text_token_revoked_subject']        = 'Mã truy cập Square của bạn đã bị thu hồi!';
+$_['text_token_revoked_message']        = "Quyền truy cập của tiện ích thanh toán Square vào tài khoản Square của bạn đã bị thu hồi thông qua Bảng điều khiển Square. Bạn cần xác minh thông tin xác thực ứng dụng trong phần cài đặt tiện ích và kết nối lại.";
+$_['text_token_expired_subject']        = 'Mã truy cập Square của bạn đã hết hạn!';
+$_['text_token_expired_message']        = "Mã truy cập kết nối tiện ích thanh toán Square với tài khoản Square của bạn đã hết hạn. Bạn cần xác minh thông tin xác thực ứng dụng và thiết lập tác vụ CRON trong phần cài đặt tiện ích, sau đó kết nối lại.";
+
+// Error
+$_['error_browser_not_supported']       = 'Lỗi: Trình duyệt của bạn không còn được hệ thống thanh toán hỗ trợ. Vui lòng cập nhật hoặc sử dụng trình duyệt khác.';
+$_['error_card_invalid']                = 'Lỗi: Thẻ không hợp lệ!';
+$_['error_squareup_cron_token']         = 'Lỗi: Không thể làm mới mã truy cập. Vui lòng kết nối tiện ích thanh toán Square của bạn thông qua bảng quản trị OpenCart.';
+
+// Warning
+$_['warning_test_mode']                 = 'Cảnh báo: Đang bật chế độ Sandbox! Các giao dịch sẽ được hiển thị như đã hoàn tất, nhưng không có khoản phí thực sự nào được thực hiện.';
+
+// Statuses
+$_['squareup_status_comment_authorized']    = 'Giao dịch thẻ đã được ủy quyền nhưng chưa được thu tiền.';
+$_['squareup_status_comment_captured']      = 'Giao dịch thẻ đã được ủy quyền và sau đó đã được thu tiền (hoàn tất).';
+$_['squareup_status_comment_voided']        = 'Giao dịch thẻ đã được ủy quyền và sau đó bị hủy (đã bị hủy bỏ).';
+$_['squareup_status_comment_failed']        = 'Giao dịch thẻ thất bại.';
+
+// Override errors
+$_['squareup_override_error_billing_address.country']       = 'Quốc gia của địa chỉ thanh toán không hợp lệ. Vui lòng chỉnh sửa và thử lại.';
+$_['squareup_override_error_shipping_address.country']      = 'Quốc gia của địa chỉ giao hàng không hợp lệ. Vui lòng chỉnh sửa và thử lại.';
+$_['squareup_override_error_email_address']                 = 'Địa chỉ email của bạn không hợp lệ. Vui lòng chỉnh sửa và thử lại.';
+$_['squareup_override_error_phone_number']                  = 'Số điện thoại của bạn không hợp lệ. Vui lòng chỉnh sửa và thử lại.';
+$_['squareup_error_field']                                  = ' Trường: %s';

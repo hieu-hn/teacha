@@ -98,6 +98,7 @@ $_['help_category']          = '(Tự động hoàn thành)';
 $_['help_filter']            = '(Tự động hoàn thành)';
 $_['help_download']          = '(Tự động hoàn thành)';
 $_['help_related']           = '(Tự động hoàn thành)';
+$_['help_tag']               = 'Ngăn cách bằng dấu phẩy';
 
 // Error
 $_['error_warning']          = 'Cảnh báo: Vui lòng kiểm tra cẩn thận biểu mẫu để tìm lỗi!';

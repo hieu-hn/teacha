@@ -48,3 +48,16 @@ $_['help_debug']				 	  = 'Bật gỡ lỗi sẽ ghi dữ liệu nhạy cảm v�
 // Tab
 $_['tab_settings']				 	  = 'Cài đặt';
 $_['tab_order_status']				  = 'Trạng thái đơn hàng';
+
+// Lỗi
+$_['error_permission']              = 'Cảnh báo: Bạn không có quyền sửa đổi G2APay!';
+$_['error_email']                   = 'Yêu cầu nhập E-Mail!';
+$_['error_secret']                  = 'Yêu cầu nhập Secret!';
+$_['error_api_hash']                = 'Yêu cầu nhập API Hash!';
+$_['entry_status']                  = 'Trạng thái';
+
+// Nút
+$_['btn_refund']                    = 'Hoàn tiền';
+
+$_['g2apay_environment_live']       = 'Hoạt động';
+$_['g2apay_environment_test']       = 'Thử nghiệm';

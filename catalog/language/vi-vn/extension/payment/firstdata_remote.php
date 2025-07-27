@@ -1,62 +1,58 @@
 <?php
-// Text
-$_['text_title']            = 'Thẻ tín dụng / Thẻ ghi nợ (FirstData)';
-$_['text_credit_card']      = 'Chi tiết thẻ';
-$_['text_wait']            = 'Vui lòng đợi!';
-$_['text_store_card']      = 'Lưu thông tin thẻ?';
-$_['text_result']         = 'Kết quả: ';
-$_['text_message']        = 'Thông báo: ';
-$_['text_cvv_result']     = 'Kết quả CVV: ';
-$_['text_approval_code']  = 'Mã chấp thuận: ';
-$_['text_reference_number'] = 'Số tham chiếu: ';
-$_['text_card_type']      = 'Loại thẻ: ';
-$_['text_card_digits']    = 'Số thẻ: ';
-$_['text_card_exp']       = 'Ngày hết hạn: ';
-$_['text_card_name']      = 'Tên thẻ: ';
-$_['text_3d_s1']         = 'Chủ thẻ không đăng ký';
-$_['text_3d_s2']         = 'Không thể xác minh đăng ký';
-$_['text_3d_s3']         = 'Phản hồi không hợp lệ từ máy chủ đăng ký';
-$_['text_3d_s4']         = 'Đã đăng ký nhưng phản hồi không hợp lệ từ ACS';
-$_['text_3d_s5']         = 'Xác thực thành công';
-$_['text_3d_s6']         = 'Xác thực đang được thử';
-$_['text_3d_s7']         = 'Sai mật khẩu';
-$_['text_3d_s8']         = 'Xác thực không khả dụng';
-$_['text_3d_s9']         = 'Phản hồi không hợp lệ từ ACS';
-$_['text_3d_s10']        = 'Lỗi nghiêm trọng RealMPI';
-$_['text_card_accepted']   = 'Thẻ được chấp nhận: ';
-$_['text_card_type_m']     = 'Mastercard';
-$_['text_card_type_v']     = 'Visa (Credit/Debit/Electron/Delta)';
-$_['text_card_type_c']     = 'Diners';
-$_['text_card_type_a']     = 'American Express';
-$_['text_card_type_ma']    = 'Maestro';
-$_['text_card_new']        = 'Thẻ mới';
+// Văn bản
+$_['text_title'] = 'Thẻ tín dụng hoặc thẻ ghi nợ';
+$_['text_credit_card'] = 'Chi tiết thẻ tín dụng';
+$_['text_wait'] = 'Vui lòng chờ!';
+$_['text_store_card'] = 'Lưu thông tin thẻ?';
 
-// Entry
-$_['entry_cc_number']      = 'Số thẻ';
-$_['entry_cc_name']        = 'Tên chủ thẻ';
-$_['entry_cc_expire_date'] = 'Ngày hết hạn';
-$_['entry_cc_cvv2']        = 'Mã bảo mật (CVV2)';
+// Mục nhập
+$_['entry_cc_number'] = 'Số thẻ';
+$_['entry_cc_name'] = 'Tên chủ thẻ';
+$_['entry_cc_expire_date'] = 'Ngày hết hạn thẻ';
+$_['entry_cc_cvv2'] = 'Mã bảo mật thẻ (CVV2)';
 
-// Help
-$_['help_start_date']      = '(nếu có)';
-$_['help_issue']           = '(chỉ dành cho thẻ Maestro và Solo)';
-$_['text_card_type_ma']    = 'Maestro';
-$_['text_card_new']        = 'Thẻ mới';
+// Trợ giúp
+$_['help_start_date'] = '(nếu có)';
+$_['help_issue'] = '(chỉ áp dụng cho thẻ Maestro và Solo)';
 
-// Entry
-$_['entry_cc_number']      = 'Số thẻ';
-$_['entry_cc_name']        = 'Tên chủ thẻ';
-$_['entry_cc_expire_date'] = 'Ngày hết hạn';
-$_['entry_cc_cvv2']       = 'Mã bảo mật (CVV2)';
-$_['entry_cc_choice']     = 'Chọn thẻ hiện có';
+// Văn bản
+$_['text_result'] = 'Kết quả: ';
+$_['text_approval_code'] = 'Mã phê duyệt: ';
+$_['text_reference_number'] = 'Tham chiếu: ';
+$_['text_card_number_ref'] = '4 số cuối của thẻ: xxxx ';
+$_['text_card_brand'] = 'Thương hiệu thẻ: ';
+$_['text_response_code'] = 'Mã phản hồi: ';
+$_['text_fault'] = 'Thông báo lỗi: ';
+$_['text_error'] = 'Thông báo lỗi: ';
+$_['text_avs'] = 'Xác minh địa chỉ: ';
+$_['text_address_ppx'] = 'Không có dữ liệu địa chỉ hoặc địa chỉ chưa được kiểm tra bởi tổ chức phát hành thẻ';
+$_['text_address_yyy'] = 'Tổ chức phát hành xác nhận cả đường và mã bưu điện đều khớp với hồ sơ';
+$_['text_address_yna'] = 'Tổ chức phát hành xác nhận đường khớp nhưng mã bưu điện không khớp';
+$_['text_address_nyz'] = 'Tổ chức phát hành xác nhận mã bưu điện khớp nhưng đường không khớp';
+$_['text_address_nnn'] = 'Cả đường và mã bưu điện đều không khớp với hồ sơ tổ chức phát hành';
+$_['text_address_ypx'] = 'Tổ chức phát hành xác nhận đường khớp, nhưng không kiểm tra mã bưu điện';
+$_['text_address_pyx'] = 'Tổ chức phát hành xác nhận mã bưu điện khớp, nhưng không kiểm tra đường';
+$_['text_address_xxu'] = 'Tổ chức phát hành không kiểm tra thông tin AVS';
+$_['text_card_code_verify'] = 'Mã bảo mật: ';
+$_['text_card_code_m'] = 'Mã bảo mật thẻ khớp';
+$_['text_card_code_n'] = 'Mã bảo mật thẻ không khớp';
+$_['text_card_code_p'] = 'Chưa xử lý';
+$_['text_card_code_s'] = 'Người bán cho biết mã bảo mật không có trên thẻ';
+$_['text_card_code_u'] = 'Tổ chức phát hành không được chứng nhận và/hoặc chưa cung cấp khóa mã hóa';
+$_['text_card_code_x'] = 'Không nhận được phản hồi từ tổ chức thẻ tín dụng';
+$_['text_card_code_blank'] = 'Phản hồi trống cho thấy không có mã nào được gửi và không có chỉ báo rằng mã không có trên thẻ.';
+$_['text_card_accepted'] = 'Chấp nhận các loại thẻ: ';
+$_['text_card_type_m'] = 'Mastercard';
+$_['text_card_type_v'] = 'Visa (Credit/Debit/Electron/Delta)';
+$_['text_card_type_c'] = 'Diners';
+$_['text_card_type_a'] = 'American Express';
+$_['text_card_type_ma'] = 'Maestro';
+$_['text_card_new'] = 'Thẻ mới';
+$_['text_response_proc_code'] = 'Mã xử lý: ';
+$_['text_response_ref'] = 'Mã tham chiếu: ';
 
-// Help
-$_['help_start_date']      = '(nếu có)';
-$_['help_issue']          = '(chỉ dành cho thẻ Maestro và Solo)';
-
-// Error
-$_['error_card']          = 'Vui lòng kiểm tra thông tin thẻ';
-$_['error_card_name']     = 'Vui lòng kiểm tra tên chủ thẻ';
-$_['error_card_cvv']      = 'Vui lòng kiểm tra CVV2';
-$_['error_3d_unable']     = 'Người bán yêu cầu xác thực 3D nhưng không thể xác minh với ngân hàng của bạn';
-$_['error_failed']        = 'Không thể xử lý thanh toán của bạn, vui lòng liên hệ người bán';
+// Lỗi
+$_['error_card_number'] = 'Vui lòng kiểm tra số thẻ của bạn có hợp lệ không';
+$_['error_card_name'] = 'Vui lòng kiểm tra tên chủ thẻ có hợp lệ không';
+$_['error_card_cvv'] = 'Vui lòng kiểm tra mã CVV2 có hợp lệ không';
+$_['error_failed'] = 'Không thể xử lý thanh toán của bạn, vui lòng liên hệ người bán';

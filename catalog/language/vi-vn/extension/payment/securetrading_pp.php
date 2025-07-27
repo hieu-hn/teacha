@@ -1,6 +1,7 @@
 <?php
 // Text
 $_['text_title'] = 'Thẻ tín dụng / Thẻ ghi nợ (Secure Trading)';
+$_['button_confirm'] = 'Xác nhận';
 $_['text_description'] = 'Sản phẩm trên %s Đơn hàng số: %s';
 $_['text_payment_status'] = 'Thanh toán đã được gửi. Trạng thái: %s';
 $_['text_transaction_date'] = 'Ngày giao dịch: %s';

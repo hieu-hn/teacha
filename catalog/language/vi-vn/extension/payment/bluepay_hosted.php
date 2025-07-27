@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = 'BluePay Hosted Form';
+//$_['heading_title'] = 'BluePay Hosted Form';
 
 // Text
 $_['text_title'] = 'Thẻ tín dụng / Thẻ ghi nợ (BluePay)';

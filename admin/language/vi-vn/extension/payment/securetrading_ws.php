@@ -98,3 +98,15 @@ $_['error_connection']                           = 'Không thể kết nối v�
 $_['error_data_missing']                         = 'Thiếu dữ liệu';
 
 $_['help_refund']                                = 'Vui lòng bao gồm dấu thập phân và phần thập phân của số tiền';
+$_['help_csv_username'] = 'Tên người dùng của dịch vụ Tải giao dịch';
+$_['help_csv_password'] = 'Mật khẩu của dịch vụ Tải giao dịch';
+$_['help_total'] = 'Tổng giá trị đơn hàng phải đạt trước khi phương thức thanh toán này được kích hoạt';
+
+$_['button_reverse_authorisation'] = 'Hủy ủy quyền';
+$_['button_refund'] = 'Hoàn tiền';
+$_['button_show'] = 'Hiển thị';
+$_['button_download'] = 'Tải về';
+$_['button_release'] = 'Phát hành';
+$_['button_rebate'] = 'Hoàn tiền / hoàn lại';
+$_['button_void'] = 'Hủy ủy quyền';
+

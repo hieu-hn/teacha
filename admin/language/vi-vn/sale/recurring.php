@@ -34,36 +34,49 @@ $_['text_status_4']                        = 'Đã bị đình chỉ';
 $_['text_status_5']                        = 'Đã hết hạn';
 $_['text_status_6']                        = 'Đang chờ xử lý';
 
-// Column
-$_['column_order_recurring_id']            = 'ID định kỳ';
-$_['column_order_id']                      = 'ID đơn hàng';
-$_['column_reference']                     = 'Tham chiếu thanh toán';
-$_['column_customer']                      = 'Khách hàng';
-$_['column_date_added']                    = 'Ngày thêm';
-$_['column_status']                        = 'Trạng thái';
-$_['column_amount']                        = 'Số tiền';
-$_['column_type']                          = 'Loại';
-$_['column_action']                        = 'Thao tác';
+$_['text_transactions'] = 'Giao dịch';
+$_['text_cancel_confirm'] = 'Việc hủy hồ sơ định kỳ không thể hoàn tác! Bạn có chắc chắn muốn thực hiện không?';
+$_['text_transaction_date_added'] = 'Ngày tạo';
+$_['text_transaction_payment'] = 'Thanh toán';
+$_['text_transaction_outstanding_payment'] = 'Thanh toán còn nợ';
+$_['text_transaction_skipped'] = 'Bỏ qua thanh toán';
+$_['text_transaction_failed'] = 'Thanh toán thất bại';
+$_['text_transaction_cancelled'] = 'Đã hủy';
+$_['text_transaction_suspended'] = 'Tạm ngưng';
+$_['text_transaction_suspended_failed'] = 'Tạm ngưng do thanh toán thất bại';
+$_['text_transaction_outstanding_failed'] = 'Thanh toán còn nợ thất bại';
+$_['text_transaction_expired'] = 'Đã hết hạn';
+$_['text_cancelled'] = 'Thanh toán định kỳ đã bị hủy';
 
-// Entry
-$_['entry_order_recurring_id']             = 'ID định kỳ';
-$_['entry_order_id']                       = 'ID đơn hàng';
-$_['entry_reference']                      = 'Tham chiếu thanh toán';
-$_['entry_customer']                       = 'Khách hàng';
-$_['entry_date_added']                     = 'Ngày thêm';
-$_['entry_status']                         = 'Trạng thái';
-$_['entry_type']                           = 'Loại';
-$_['entry_action']                         = 'Thao tác';
-$_['entry_email']                          = 'Email';
-$_['entry_description']                    = 'Mô tả hồ sơ định kỳ';
-$_['entry_product']                        = 'Sản phẩm';
-$_['entry_quantity']                       = 'Số lượng';
-$_['entry_amount']                         = 'Số tiền';
-$_['entry_recurring']                      = 'Hồ sơ định kỳ';
-$_['entry_payment_method']                 = 'Phương thức thanh toán';
-$_['entry_cancel_payment']                 = 'Hủy thanh toán';
+// Cột
+$_['column_order_recurring_id'] = 'Mã định kỳ';
+$_['column_order_id'] = 'Mã đơn hàng';
+$_['column_reference'] = 'Tham chiếu thanh toán';
+$_['column_customer'] = 'Khách hàng';
+$_['column_date_added'] = 'Ngày tạo';
+$_['column_status'] = 'Trạng thái';
+$_['column_amount'] = 'Số tiền';
+$_['column_type'] = 'Loại';
+$_['column_action'] = 'Hành động';
 
-// Error
-$_['error_not_cancelled']                  = 'Lỗi: %s';
-$_['error_not_found']                      = 'Không thể hủy hồ sơ định kỳ';
-$_['text_cancelled']                       = 'Thanh toán định kỳ đã bị hủy';
+// Mục nhập
+$_['entry_order_recurring_id'] = 'Mã định kỳ';
+$_['entry_order_id'] = 'Mã đơn hàng';
+$_['entry_reference'] = 'Tham chiếu thanh toán';
+$_['entry_customer'] = 'Khách hàng';
+$_['entry_date_added'] = 'Ngày tạo';
+$_['entry_status'] = 'Trạng thái';
+$_['entry_type'] = 'Loại';
+$_['entry_action'] = 'Hành động';
+$_['entry_email'] = 'Email';
+$_['entry_description'] = 'Mô tả hồ sơ định kỳ';
+$_['entry_product'] = 'Sản phẩm';
+$_['entry_quantity'] = 'Số lượng';
+$_['entry_amount'] = 'Số tiền';
+$_['entry_recurring'] = 'Hồ sơ định kỳ';
+$_['entry_payment_method'] = 'Phương thức thanh toán';
+$_['entry_cancel_payment'] = 'Hủy thanh toán';
+
+// Lỗi
+$_['error_not_cancelled'] = 'Lỗi: %s';
+$_['error_not_found'] = 'Không thể hủy hồ sơ định kỳ';

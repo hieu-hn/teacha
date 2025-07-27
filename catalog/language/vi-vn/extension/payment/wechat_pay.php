@@ -1,4 +1,6 @@
 <?php
+// Heading
+$_['heading_title']              = 'Wechat QR Code Pay';
 // Text
 $_['text_title']                = 'WeChat Pay';
 $_['text_checkout']             = 'Thanh toán';

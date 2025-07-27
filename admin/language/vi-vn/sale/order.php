@@ -48,3 +48,85 @@ $_['text_jan']                   = 'JAN:';
 $_['text_isbn']                  = 'ISBN:';
 $_['text_mpn']                   = 'MPN:';
 $_['text_missing']               = 'Đơn hàng bị thiếu';
+$_['text_default'] = 'Mặc định';
+$_['text_product'] = 'Thêm sản phẩm';
+$_['text_voucher'] = 'Thêm phiếu quà tặng';
+$_['text_shipping'] = 'Vận chuyển';
+$_['text_contact'] = 'Liên hệ';
+$_['text_reward_added'] = 'Thành công: Điểm thưởng đã được cộng!';
+$_['text_reward_removed'] = 'Thành công: Điểm thưởng đã được xóa!';
+$_['text_commission_added'] = 'Thành công: Hoa hồng đã được cộng!';
+$_['text_commission_removed'] = 'Thành công: Hoa hồng đã được xóa!';
+$_['text_restock'] = 'Thành công: Sản phẩm đã được nhập lại kho!';
+$_['text_upload'] = 'Tệp của bạn đã được tải lên thành công!';
+$_['text_picklist'] = 'Phiếu giao hàng';
+
+// Cột
+$_['column_order_id'] = 'Mã đơn hàng';
+$_['column_customer'] = 'Khách hàng';
+$_['column_status'] = 'Trạng thái';
+$_['column_date_added'] = 'Ngày tạo';
+$_['column_date_modified'] = 'Ngày chỉnh sửa';
+$_['column_total'] = 'Tổng cộng';
+$_['column_product'] = 'Sản phẩm';
+$_['column_model'] = 'Mã sản phẩm';
+$_['column_quantity'] = 'Số lượng';
+$_['column_price'] = 'Đơn giá';
+$_['column_comment'] = 'Ghi chú';
+$_['column_notify'] = 'Đã thông báo cho khách';
+$_['column_location'] = 'Vị trí';
+$_['column_reference'] = 'Tham chiếu';
+$_['column_action'] = 'Hành động';
+$_['column_weight'] = 'Trọng lượng sản phẩm';
+
+// Mục nhập
+$_['entry_store'] = 'Cửa hàng';
+$_['entry_customer'] = 'Khách hàng';
+$_['entry_customer_group'] = 'Nhóm khách hàng';
+$_['entry_firstname'] = 'Tên';
+$_['entry_lastname'] = 'Họ';
+$_['entry_email'] = 'E-Mail';
+$_['entry_telephone'] = 'Điện thoại';
+$_['entry_address'] = 'Chọn địa chỉ';
+$_['entry_company'] = 'Công ty';
+$_['entry_address_1'] = 'Địa chỉ 1';
+$_['entry_address_2'] = 'Địa chỉ 2';
+$_['entry_city'] = 'Thành phố';
+$_['entry_postcode'] = 'Mã bưu điện';
+$_['entry_country'] = 'Quốc gia';
+$_['entry_zone'] = 'Khu vực / Tỉnh';
+$_['entry_zone_code'] = 'Mã khu vực / tỉnh';
+$_['entry_product'] = 'Chọn sản phẩm';
+$_['entry_option'] = 'Chọn tùy chọn';
+$_['entry_quantity'] = 'Số lượng';
+$_['entry_to_name'] = 'Tên người nhận';
+$_['entry_to_email'] = 'E-mail người nhận';
+$_['entry_from_name'] = 'Tên người gửi';
+$_['entry_from_email'] = 'E-mail người gửi';
+$_['entry_theme'] = 'Chủ đề phiếu quà tặng';
+$_['entry_message'] = 'Tin nhắn';
+$_['entry_amount'] = 'Số tiền';
+$_['entry_affiliate'] = 'Cộng tác viên';
+$_['entry_order_status'] = 'Trạng thái đơn hàng';
+$_['entry_notify'] = 'Thông báo cho khách hàng';
+$_['entry_override'] = 'Bỏ qua hạn chế';
+$_['entry_comment'] = 'Ghi chú';
+$_['entry_currency'] = 'Tiền tệ';
+$_['entry_shipping_method'] = 'Phương thức vận chuyển';
+$_['entry_payment_method'] = 'Phương thức thanh toán';
+$_['entry_coupon'] = 'Mã giảm giá';
+$_['entry_voucher'] = 'Phiếu quà tặng';
+$_['entry_reward'] = 'Điểm thưởng';
+$_['entry_order_id'] = 'Mã đơn hàng';
+$_['entry_total'] = 'Tổng cộng';
+$_['entry_date_added'] = 'Ngày tạo';
+$_['entry_date_modified'] = 'Ngày chỉnh sửa';
+
+// Trợ giúp
+$_['help_override'] = 'Nếu đơn hàng bị chặn thay đổi trạng thái bởi tiện ích chống gian lận, hãy bật tùy chọn bỏ qua này.';
+
+// Lỗi
+$_['error_warning'] = 'Cảnh báo: Vui lòng kiểm tra kỹ biểu mẫu để tránh lỗi!';
+$_['error_permission'] = 'Cảnh báo: Bạn không có quyền chỉnh sửa đơn hàng!';
+$_['error_action'] = 'Cảnh báo: Không thể thực hiện hành động này!';
+$_['error_filetype'] = 'Loại tệp không hợp lệ!';

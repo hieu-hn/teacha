@@ -5,9 +5,13 @@
  */
 
 // Đường dẫn đến thư mục ngôn ngữ
+
 $en_path = '/workspaces/teacha/catalog/language/en-gb/';
 $vi_path = '/workspaces/teacha/catalog/language/vi-vn/';
-
+/*
+$en_path = '/workspaces/teacha/admin/language/en-gb/';
+$vi_path = '/workspaces/teacha/admin/language/vi-vn/';
+*/
 // Hàm lấy tất cả các key từ file PHP
 function getLanguageKeys($file) {
     $keys = array();

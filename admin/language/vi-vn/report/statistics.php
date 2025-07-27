@@ -14,3 +14,10 @@ $_['text_customer']         = 'Khách hàng chờ duyệt';
 $_['text_affiliate']        = 'Đối tác liên kết chờ duyệt';
 $_['text_product']          = 'Sản phẩm hết hàng';
 $_['text_review']           = 'Đánh giá đang chờ';
+// Cột
+$_['column_name'] = 'Tên thống kê';
+$_['column_value'] = 'Giá trị';
+$_['column_action'] = 'Hành động';
+
+// Lỗi
+$_['error_permission'] = 'Cảnh báo: Bạn không có quyền chỉnh sửa thống kê!';

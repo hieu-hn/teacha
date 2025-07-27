@@ -10,7 +10,8 @@ $_['text_year'] = 'Năm';
 $_['text_month'] = 'Tháng';
 $_['text_day'] = 'Ngày';
 $_['text_comment'] = 'ID hóa đơn Klarna: %s. ' . "\n" . '%s/%s: %.4f';
-$_['text_terms_description'] = 'Với việc chuyển thông tin cá nhân và chi tiết đặt hàng tới Klarna, bạn đồng ý với chính sách bảo mật và điều khoản của chúng tôi. Bạn phải từ 18 tuổi trở lên để sử dụng phương thức thanh toán này.';
+//$_['text_terms_description'] = 'Với việc chuyển thông tin cá nhân và chi tiết đặt hàng tới Klarna, bạn đồng ý với chính sách bảo mật và điều khoản của chúng tôi. Bạn phải từ 18 tuổi trở lên để sử dụng phương thức thanh toán này.';
+$_['text_trems_description'] = 'Tôi đồng ý việc chuyển các dữ liệu cần thiết cho việc xử lý thanh toán qua hóa đơn cũng như kiểm tra danh tính và tín dụng cho Klarna. Tôi có thể <a href="https://online.klarna.com/consent_de.yaws" target="_blank">thu hồi sự đồng ý</a> của mình bất cứ lúc nào với hiệu lực cho tương lai.';
 
 // Entry
 $_['entry_gender'] = 'Giới tính';

@@ -1,4 +1,6 @@
 <?php
+// Heading
+$_['heading_title']				= 'Cảm ơn bạn đã mua sắm tại %s .... ';
 // Text
 $_['text_title']      = 'PayPoint'; 
 $_['text_response']   = 'Phản hồi từ PayPoint:';

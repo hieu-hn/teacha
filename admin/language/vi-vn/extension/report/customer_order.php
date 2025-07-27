@@ -26,3 +26,6 @@ $_['entry_customer']        = 'Khách hàng';
 $_['entry_status']          = 'Trạng thái đơn hàng';
 $_['entry_status']          = 'Trạng thái';
 $_['entry_sort_order']      = 'Thứ tự sắp xếp';
+
+// Error
+$_['error_permission'] = 'Cảnh báo: Bạn không có quyền chỉnh sửa báo cáo đơn hàng của khách hàng!';

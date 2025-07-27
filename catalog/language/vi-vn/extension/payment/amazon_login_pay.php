@@ -1,6 +1,6 @@
 <?php
 // Text
-$_['text_title']                = 'Amazon Pay';
+//$_['text_title']                = 'Amazon Pay';
 $_['breadcrumb_cart']          = 'Giỏ hàng';
 $_['breadcrumb_payment']       = 'Thanh toán';
 $_['breadcrumb_shipping']      = 'Vận chuyển';

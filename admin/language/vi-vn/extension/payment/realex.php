@@ -98,3 +98,4 @@ $_['error_secret']					 = 'Yêu cầu khóa bí mật chung';
 $_['error_live_url']				 = 'Yêu cầu URL trực tiếp';
 $_['error_demo_url']				 = 'Yêu cầu URL demo';
 $_['error_data_missing']			 = 'Thiếu dữ liệu';
+$_['error_use_select_card']          = 'Bạn phải bật "Chọn thẻ" để định tuyến tài khoản phụ theo loại thẻ hoạt động.';

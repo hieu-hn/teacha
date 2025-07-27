@@ -28,3 +28,15 @@ $_['text_activity_transaction']    = '<a href="customer_id=%d">%s</a> đã nhậ
 $_['column_customer']              = 'Khách hàng';
 $_['column_comment']               = 'Bình luận';
 $_['column_ip']                    = 'IP';
+$_['column_date_added'] = 'Ngày thêm';
+
+// Mục nhập
+$_['entry_customer'] = 'Khách hàng';
+$_['entry_ip'] = 'Địa chỉ IP';
+$_['entry_date_start'] = 'Ngày bắt đầu';
+$_['entry_date_end'] = 'Ngày kết thúc';
+$_['entry_status'] = 'Trạng thái';
+$_['entry_sort_order'] = 'Thứ tự sắp xếp';
+
+// Lỗi
+$_['error_permission'] = 'Cảnh báo: Bạn không có quyền chỉnh sửa báo cáo hoạt động của khách hàng!';
